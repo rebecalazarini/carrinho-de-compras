@@ -78,9 +78,7 @@ main{
         box-shadow: 0 0 5px var(--t2);
         font-weight: bold;
         cursor: pointer;
-
     }
-
 }
 
 .modal{
@@ -92,7 +90,6 @@ main{
     align-items: center;
     justify-content: center;
     background-color: var(--t2);
-
 }
 
 .janela{
@@ -120,14 +117,12 @@ main{
         box-shadow: 0 0 5px var(--t2);
         font-weight: bold;
         cursor: pointer;
-
     }
 
     & form{
         display: flex;
         flex-direction: column;
         gap: 10px;
-
     }
 }
 
@@ -137,7 +132,6 @@ input{
         border-radius: 5px;
         box-shadow: 0 0 5px var(--t2);
         font-weight: bold;
-        
 }
 
 .oculto{
@@ -148,4 +142,26 @@ input{
    .janela {
     min-width: 90%;
    }
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: flex-start;
+    padding: 20px; 
+    max-width: 300px; 
+}
+
+#conteudo img {
+    width: 100%; 
+    height: auto; 
+}
+
+#conteudo h3 {
+    margin: 0; 
+}
+
+#conteudo p {
+    margin: 5px 0; 
 }

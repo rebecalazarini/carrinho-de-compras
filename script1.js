@@ -1,7 +1,7 @@
 const dadosFront = "./assets/produtos.json";
-let produtos = []; // Variável global para armazenar produtos
+let produtos = [];
 
-// Carregar os produtos do JSON
+
 fetch(dadosFront)
     .then(resp => resp.json())
     .then(dados => {
@@ -12,7 +12,7 @@ fetch(dadosFront)
         console.error('Erro ao carregar produtos:', error);
     });
 
-// Função para exibir os produtos na página
+// Função para exibir os produtos
 function mostrarProdutos(produtos) {
     const container = document.getElementById('produtos-container');
     produtos.forEach((produto, index) => {
