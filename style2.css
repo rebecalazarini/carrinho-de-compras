@@ -9,6 +9,7 @@
     --c3:#FFDEAD;
     --c4:#f0dfd0;
     --t1:#D2691E;
+    --t2:#e39e6d;
     
 }
 body{
@@ -68,11 +69,8 @@ main{
 
     & img {
         max-width: 250px;
-       
     }
-
 }
-
     & div{
         display: flex;
         width: 100%;
@@ -85,7 +83,6 @@ input{
         border-radius: 5px;
         box-shadow: 0 0 5px var(--t2);
         font-weight: bold;
-        
 }
 
 #enviarPedido{
@@ -98,4 +95,14 @@ input{
     cursor: pointer;
     width: 15vh;
     height: 5vh;
+}
+
+#totalCarrinho{
+    background-color:var(--t2);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    border-radius: 10px;
 }
